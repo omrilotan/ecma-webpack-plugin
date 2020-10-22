@@ -3,7 +3,7 @@ const message = require('./lib/message');
 
 const defaults = {
 	extensions: [
-		'js', 'mjs',
+		'js', 'mjs', 'cjs',
 	],
 };
 

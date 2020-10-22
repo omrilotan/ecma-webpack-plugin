@@ -1,3 +1,7 @@
+const abuser = require('abuser');
+const { fake } = require('sinon');
+const { expect } = require('chai');
+
 const { clean, override } = abuser(__filename);
 
 const compiler = {
@@ -31,7 +35,7 @@ describe('ecma-webpack-plugin', () => {
 	it('Should set default options', () => {
 		const plugin = new EcmaPlugin();
 
-		expect(plugin.options.extensions).to.deep.equal([ 'js', 'mjs' ]);
+		expect(plugin.options.extensions).to.deep.equal([ 'js', 'mjs', 'cjs' ]);
 	});
 	it('Should register with tapPromise', () => {
 		const plugin = new EcmaPlugin();
