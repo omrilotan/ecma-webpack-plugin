@@ -1,6 +1,6 @@
 {
   "name": "ecma-webpack-plugin",
-  "version": "1.2.0-rc",
+  "version": "1.2.0",
   "description": "🧳 Verify your output code is compliant to the version you're targeting",
   "keywords": [
     "webpack",
