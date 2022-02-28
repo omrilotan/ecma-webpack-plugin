@@ -2,3 +2,4 @@
 *.log
 spec.js
 mocha-config.js
+fixtures
